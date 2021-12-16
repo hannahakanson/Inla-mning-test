@@ -235,10 +235,14 @@ header {
 
 #lightbulb-wrapper {
   display: flex;
+  justify-content: center;
   flex-direction: row-reverse;
-  background-color: #261BF5;
-  color: white;
+  color: black;
   padding: 10px;
+}
+
+#lightbulb-wrapper .text-wrapper {
+  padding: 0 !important;
 }
 
 .row {
@@ -297,6 +301,11 @@ footer {
 
 .footer-content {
   padding-top: 10%;
+}
+
+.footer-logo {
+    margin-left: 20px;
+    padding-bottom: 10px;
 }
 
 .footer-links {
@@ -392,14 +401,7 @@ footer {
     border-color: transparent #261BF5 transparent transparent;
   }
   
-  time {
-    display: block;
-    font-size: 1.2rem;
-    font-weight: bold;
-    margin-bottom: 8px;
-  }
-  
-  
+
   /* EFFECTS */
   
   .timeline ul li::after {
@@ -529,6 +531,10 @@ footer {
     margin: 0 10% 0 10%;
   }
 
+  .line {
+    width: 350px;
+}
+
   #hamburger {
     justify-content: flex-end;
     padding-right: 5%;
@@ -555,7 +561,7 @@ footer {
   }
 
   #lightbulb-wrapper .text-wrapper {
-    width: 50%;
+    width: 400px !important;
     margin: 0;
     padding: 10% 0 10% 0;
   }
@@ -563,6 +569,11 @@ footer {
   #lightbulb-wrapper {
     align-items: center;
     justify-content: center !important;
+    padding-top: 5%;
+  }
+
+  #lightbulb-wrapper p {
+    width: 300px;
   }
 
   #social-proof {
@@ -720,7 +731,7 @@ footer {
     width: 350px;
   }
 
-  #card-text {
+  .card-text {
     padding-bottom: 7%;
   }
 
@@ -734,10 +745,6 @@ footer {
 
   #social-proof-img {
     width: 450px;
-  }
-
-  #partners {
-
   }
 
   .flex-row {
