@@ -313,16 +313,11 @@ header {
 }
 
 footer {
-  height: 400px;
-}
-
-#mobile-footer-svg {
-  position: relative;
-  left: 200px;
+  height: 0px;
 }
 
 .footer-content {
-  padding-top: 15%;
+  padding-top: 10%;
 }
 
 .footer-links {
@@ -622,6 +617,16 @@ footer {
   }
   #social-proof-img {
     width: 400px;
+  }
+
+  #apply-now {
+    padding: 10%;
+  }
+
+  #mobile-footer-svg {
+    position: relative;
+    left: 70%;
+    bottom: 300px;
   }
 
   }
