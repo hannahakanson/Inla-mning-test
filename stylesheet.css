@@ -6,7 +6,9 @@ body {
   font-family: sofia-pro, sans-serif; 
 }
 
-
+html {
+  overflow-x: hidden;
+}
 
 /* GENERAL */ 
 h1, h2, h3 {
