@@ -26,11 +26,6 @@ h3 {
   margin-bottom: 3px;
 }
 
-p {
-    font-weight: regular;
-    font-size: 11;
-}
-
 a {
   text-decoration: none !important;
 }
@@ -191,7 +186,7 @@ header {
     padding-bottom: 40px;
 }
 
-
+/* ICON-SECTION */
 .icon-wrapper {
   width: 300px;
   margin: auto;
@@ -203,8 +198,11 @@ header {
 
 .icon {
   color: #59C2F9;
+  margin-bottom: 15%;
 }
 
+
+/* CARD SECTION */
 .card-icon {
   color: #56BC69;
 }
@@ -223,6 +221,7 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
+  width: 300px;
 }
 
 .check-list p {
@@ -573,7 +572,8 @@ footer {
   }
 
   #social-proof-img {
-    width: 400px;
+    width: 350px;
+    margin: auto;
   }
 
   #partner-section {
@@ -657,6 +657,7 @@ footer {
     .content-row {
       display: flex;
       margin: 0;
+      padding: 0;
     }
 
     .content-row .text-wrapper {
@@ -671,12 +672,19 @@ footer {
 
     .content-row img {
       margin: auto;
+      margin-top: 0;
+      margin-bottom: 0;
       width: 50%;
     }
 
   }
 
   @media screen and (min-width: 1200px) {
+
+  .info-section {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
 
   .content-container {
     display: flex;
